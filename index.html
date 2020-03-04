@@ -2,9 +2,11 @@
 <html>
     <head>
         <title>You found me! Welcome.</title>
-        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <link href="css/index.css?ver=1.4" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Lacquer|Ubuntu&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
@@ -12,11 +14,11 @@
         <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Kanit&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <script src="jss/sidebar.js"></script>
+  <script src="jss/sidebar.js?ver=1.4"></script>
     </head>
     <body onselectstart="return false" id="mybody" class="bodyXL">
         
-  
+        <a name="jumpHeret"></a>
           </div>
           <div class="topbar">
                  
@@ -25,6 +27,7 @@
             <button onclick="scrollWin()">PROJECTS</button>
             <button onclick="scrollWin2()">SKILLS</button>
             <button href="#">ABOUT</button>
+            <button id="closeb">CLOSE &#8249;</button>
             
          
           </div>
@@ -138,8 +141,8 @@
         <div class="personal"  id="toolkit">
             <div class="left1">
                 <h1>PERSONAL PORTFOLIO WEBPAGE</h1>
-                <button class="bbutton" onclick="window.location.href = 'https://sites.google.com/diu.edu.bd/beuman/beuman';">DOCUMENTS</button>
-                <button class="bbutton" onclick="window.location.href = 'https://github.com/FakhrulASA/PranaBandhu-BEUMAN';">GITHUB</button>
+                <button class="bbutton" onclick="scrollTOP()">VISIT SITE</button>
+                <button class="bbutton" onclick="window.location.href = 'https://github.com/FakhrulASA/My-Portfolio-Website';">GITHUB</button>
        
             </div>
             <div  class="right">
@@ -156,10 +159,49 @@
         </mainbody>
         <footer>
             <div class="footer">
-                <h2>THANK YOU VERY MUCH FOR KNOWING ME</h2>
-                <h6>© 2020 Fakhrul Alam Siddiqei Antor</h6>
+                <div class="leftf" >
+                    <div>
+                     <h2>THANK YOU VERY MUCH FOR KNOWING ME</h2>
+                      <h6>© 2020 Fakhrul Alam Siddiqei Antor</h6>
+                   
+                      </div>
+                  
+                </div> 
+                <a href="#" class="float">
+                    <i class="fa fa-arrow-up"></i>
+                    </a>
+                <div class="rightf" >
+                    <h3 >FEEDBACK OR ANYTHING TO SAY,</h3>
+                     <form class="form"
+                      action="https://formspree.io/afakhrul9@gmail.com"
+                      method="POST"
+                       >
+                       <div>
+                         <label>
+                              <input type="text" name="name" placeholder="Your Name">
+                          </label>
+                        </div>
+                        <div>
+                             <label>
+                               
+                             <input type="email" name="_replyto" placeholder="Your Email">
+                             </label>
+                         </div>
+                          <div>
+                          <label>
+                           
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                         </label>
+                           </div>
+                          <div>
+                       <input class="bbutton" type="submit" value="Send">
+                        </div>   
+                     
+                    </form>
+                </div>  
+               
             </div>
-        
+    
         </footer>
     </body>
 </html>

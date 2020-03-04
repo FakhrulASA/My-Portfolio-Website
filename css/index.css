@@ -2,11 +2,14 @@ body{
    
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
 }
 .bodyXL{
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       transition: 0.5s;
+      
+      overflow: hidden;
 }
 .mainbody{
 padding: 10px;
@@ -15,7 +18,7 @@ text-align: center;
 
 .topbar{
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(12, 30, 49);
 
   top: 0;
   width: 100%;
@@ -35,7 +38,7 @@ cursor:pointer;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0, 103, 221);
+  background-color: rgb(12, 30, 49);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 30px;
@@ -58,7 +61,7 @@ cursor:pointer;
   margin: 20px;
   justify-content: center;
   color: white;
-  background-color: rgb(0, 103, 221);
+  background-color: rgb(12, 30, 49);
 }
 .sidenav a:hover{
   color: #ffe0e0;
@@ -72,7 +75,8 @@ cursor:pointer;
 
 
 .projects{
-    background-color: rgba(8, 209, 142, 0.904);
+  background-color: rgb(0, 192, 74); 
+  background: linear-gradient(to right, rgb(0, 177, 59) , rgb(0, 185, 176));
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
@@ -132,7 +136,8 @@ cursor:pointer;
   background-color: #077caa;
 }
 .mainbody{
-  background-color: rgb(255, 238, 0);
+  background-color: rgb(255, 230, 0); 
+  background: linear-gradient(to right, rgb(230, 187, 0) , rgb(255, 196, 0));
   text-align: center;
 }
 .mainbody h1{
@@ -157,7 +162,8 @@ cursor:pointer;
 .header{
     height: 500px;
     overflow: hidden;
-    background-color:rgb(0, 146, 231);
+    background-color: rgb(0, 81, 255); 
+    background: linear-gradient(to right, rgb(0, 89, 255) , rgb(255, 255, 255));
     position: relative;
  
 }
@@ -165,7 +171,8 @@ cursor:pointer;
   height: 500px;
   text-align: center;
   overflow: hidden;
-  background-color:rgb(0, 162, 255);
+  background-color: rgb(0, 81, 255); 
+  background: linear-gradient(to right, rgba(0, 75, 189, 0.938) , rgb(0, 122, 221));
   position: relative;
 
 }
@@ -206,6 +213,7 @@ section #services h2 {
   
   color: rgb(77, 77, 77);
   font-size: 25px;
+  padding-right: 35px;
   font-family: 'Patua One', cursive;
   text-transform: uppercase;
   text-align: center;
@@ -214,7 +222,7 @@ section #services li {
   width: 100px;
   height: 120px;
   display: inline-block;
-  margin: 0px 20px -30px 20px;
+  margin: 0px 20px -30px 0px;
   list-style: none;
 }
 section #services li div {
@@ -256,7 +264,8 @@ section #services li span {
   max-width: 300px;
 }
 .beuman{
-  background-color: rgb(167, 72, 255);
+  background-color: rgb(195, 0, 255); 
+  background: linear-gradient(to right, rgb(195, 23, 201) , rgb(152, 49, 212));
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -266,7 +275,8 @@ section #services li span {
   color: #f1f1f1;
 }
 .cnn {
-  background-color: rgb(245, 145, 14);
+  background-color: rgb(245, 145, 14); 
+  background: linear-gradient(to right, rgb(197, 113, 3) , rgb(216, 63, 16));
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -278,7 +288,7 @@ section #services li span {
 }
 .left{
   padding-top: 80px;
-  width: 350px;
+  width: 380px;
 
 }
 .right{
@@ -300,14 +310,21 @@ section #services li span {
   margin: 5px;
   font-family: 'Baloo Paaji', cursive;
 }
-.footer{
-  display: grid;
-  background-color: rgb(41, 41, 41);
-  text-align: center;
-  color: white;
+.bbutton:hover{
+  background-color: rgba(255, 255, 255, 0.849);
+  border-radius: 7px;
+  padding: 12px;
+  border: 0px;
+  cursor:pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Baloo Paaji', cursive;
+  transition: 0.4s;
 }
+
 .toolkit{
-  background-color: rgb(0, 197, 76);
+  background-color: rgb(21, 248, 32); 
+  background: linear-gradient(to right, rgb(9, 160, 72) , rgb(17, 150, 116));
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -318,7 +335,8 @@ section #services li span {
   color: #f1f1f1;
 }
 .personal{
-  background-color: rgb(245, 0, 102);
+  background-color: rgb(248, 21, 89); 
+  background: linear-gradient(to right, rgb(0, 101, 196) , rgb(30, 34, 255));
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -334,6 +352,90 @@ section #services li span {
   width: 350px;
 
 }
+
+ 
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.form{
+  display: inline-block;
+  background-color: rgb(41, 41, 41);
+   padding: 10px;
+   border-radius: 10px;
+   justify-content: space-around;
+   text-align: center;
+}
+.form textarea {
+  border-radius: 5px;
+  width: 400px;
+  height: 100px;
+  padding: 5px;
+  border: 0px;
+
+}
+.form input{
+  border-radius: 5px;
+  width: 400px;
+  border: 0px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.footer{
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.leftf{
+  text-align: center;
+  padding: 100px;
+}
+
+.rightf{
+  text-align: center;
+  padding: 30px;
+
+}
+.rightf h3{
+  font-family: 'Kanit', sans-serif;
+
+}
+.float{
+  position: fixed;
+	width:40px;
+	height:40px;
+  bottom:10px;
+  font-size: 25px;
+  right:10px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+
+}
+.float:hover{
+  position: fixed;
+	width:50px;
+	height:50px;
+  bottom:15px;
+  font-size: 38px;
+  right:10px;
+	background-color:rgb(0, 164, 214);
+  color:#FFF;
+  transition: 0.4s;
+	border-radius:50px;
+	text-align:center;
+
+}
+
+.my-float{
+	margin-top:22px;
+}
+
 @media only screen and (max-width: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -395,7 +497,95 @@ section #services li {
   width: 100px;
   height: 120px;
   display: inline-block;
-  margin: 0px 20px -30px 10px;
+  margin: 0px 20px -30px -20px;
   list-style: none;
 }
-  }
+
+.mainbody h3{
+  font-style: initial;
+  color: rgba(22, 22, 22, 0.644);
+  font-family: 'Ubuntu Mono', monospace;
+  text-decoration: none;
+  font-size: 20px; 
+  font-style: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.toolkit{
+  background-color: rgb(0, 197, 76);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.personal{
+  background-color: rgb(245, 0, 102);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.cnn {
+  background-color: rgb(245, 145, 14);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.beuman{
+  background-color: rgb(167, 72, 255);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.left{
+  padding: 5px;
+  width: 100%;
+}
+.right{
+  padding: 35px;
+  width: 100%;
+}
+.left1{
+  padding: 35px;
+  width: 100%;
+
+}
+.footer{
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.leftf{
+  text-align: center;
+  padding: 20px;
+}
+
+.rightf{
+  text-align: center;
+  padding: 10px;
+
+}
+.form textarea {
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  border: 0px;
+
+}
+.form input{
+  border-radius: 5px;
+  width: 300px;
+  border: 0px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+}

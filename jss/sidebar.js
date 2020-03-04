@@ -1,7 +1,8 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("mybody").style.marginLeft="250px";
+  document.getElementById("mySidenav").style.width = "200px";
+  document.getElementById("mybody").style.marginLeft="200px";
   document.getElementById("menu").onclick = closeNav;
+  document.getElementById("closeb").onclick=closeNav;
 
 }
 
@@ -11,10 +12,14 @@ function closeNav() {
   document.getElementById("menu").onclick = openNav;
 }
 function scrollWin() {
-  window.location = 'file:///C:/Personal%20WEBSITE/index.html#jumpHere';
+  window.location = '#jumpHere';
  
 }
 function scrollWin2() {
-  window.location = 'file:///C:/Personal%20WEBSITE/index.html#jumpHereZ';
+  window.location = '#jumpHereZ';
+ 
+}
+function scrollTOP() {
+  window.location = '#jumpHeret';
  
 }
