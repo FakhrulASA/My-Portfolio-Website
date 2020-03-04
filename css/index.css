@@ -52,7 +52,14 @@ cursor:pointer;
   transition: 0.3s;
 
 }
-
+.sidenav button{
+  font-size: 25px;
+  border: 0;
+  margin: 20px;
+  justify-content: center;
+  color: white;
+  background-color: rgb(0, 103, 221);
+}
 .sidenav a:hover{
   color: #ffe0e0;
 }
@@ -63,12 +70,9 @@ cursor:pointer;
 
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+
 .projects{
-    background-color: rgb(0, 223, 167);
+    background-color: rgba(8, 209, 142, 0.904);
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
@@ -267,6 +271,7 @@ section #services li span {
   text-align: center;
   justify-content: space-around;
 }
+
 .cnn h1{
   font-family: 'Baloo Paaji', cursive;
   color: #f1f1f1;
@@ -291,6 +296,106 @@ section #services li span {
   border-radius: 7px;
   padding: 10px;
   border: 0px;
+  cursor:pointer;
   margin: 5px;
   font-family: 'Baloo Paaji', cursive;
 }
+.footer{
+  display: grid;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  color: white;
+}
+.toolkit{
+  background-color: rgb(0, 197, 76);
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+}
+.toolkit h1{
+  font-family: 'Baloo Paaji', cursive;
+  color: #f1f1f1;
+}
+.personal{
+  background-color: rgb(245, 0, 102);
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+}
+.personal h1{
+  font-family: 'Baloo Paaji', cursive;
+  color: #f1f1f1;
+}
+.left1{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 350px;
+
+}
+@media only screen and (max-width: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .header{
+    height: 300px;
+    overflow: hidden;
+    background-color:rgb(0, 146, 231);
+    position: relative;
+ 
+}
+.headel{
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+  background-color:rgb(0, 162, 255);
+  position: relative;
+
+}
+  .headel a{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    font-family: 'Kanit', sans-serif;
+    transform: translate(-50%, -50%);
+    font-style: inherit;
+  color: rgb(247, 247, 247);
+   
+  text-decoration: none;
+  font-size: 30px; 
+
+}
+.headel h1{
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(-50%, -50%);
+    font-style: inherit;
+  color: rgb(255, 255, 255);
+   
+  text-decoration: none;
+  font-size: 20px; 
+
+}
+section #services li div {
+  width: 70px;
+  height: 70px;
+  color: #74d4b3;
+  font-size: 35px;
+  text-align: center;
+  line-height: 70px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li {
+  width: 100px;
+  height: 120px;
+  display: inline-block;
+  margin: 0px 20px -30px 10px;
+  list-style: none;
+}
+  }

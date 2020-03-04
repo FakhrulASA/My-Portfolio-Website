@@ -3,7 +3,7 @@
     <head>
         <title>You found me! Welcome.</title>
         <link href="css/index.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Lacquer|Ubuntu&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <script src="jss/sidebar.js"></script>
     </head>
-    <body id="mybody" class="bodyXL">
+    <body onselectstart="return false" id="mybody" class="bodyXL">
         
   
           </div>
@@ -22,9 +22,9 @@
                  
         <div id="mySidenav" class="sidenav" >
           
-            <a href="#">PROJECTS</a>
-            <a href="#">ABOUT ME</a>
-            <a href="#">SKILLS</a>
+            <button onclick="scrollWin()">PROJECTS</button>
+            <button onclick="scrollWin2()">SKILLS</button>
+            <button href="#">ABOUT</button>
             
          
           </div>
@@ -87,12 +87,14 @@
                
                
             
-        </div>
+        </div> 
         <div class="projects">
-         <h1>PROJECTS</h1>
+            <a name="jumpHere"></a>
+            <h1>PROJECTS</h1>
           </div>
-         <div class="beuman">
+         <div onselectstart="return false" class="beuman">
              <div class="left">
+               
                  <h1>Pranobandhu</h1>
                  <button class="bbutton" onclick="window.location.href = 'https://sites.google.com/diu.edu.bd/beuman/beuman';">WEBSITE</button>
                  <button class="bbutton" onclick="window.location.href = 'https://github.com/FakhrulASA/PranaBandhu-BEUMAN';">GITHUB</button>
@@ -105,7 +107,7 @@
                  </h2>
              </div>
          </div>
-         <div class="cnn">
+         <div class="cnn"  id="project">
             <div class="left">
                 <h1>Rotten fruit classifier using CNN</h1>
                 <button class="bbutton" onclick="window.location.href = 'https://sites.google.com/diu.edu.bd/beuman/beuman';">DOCUMENTS</button>
@@ -119,6 +121,45 @@
                 </h2>
             </div>
         </div>
+        <div class="toolkit"  id="toolkit">
+            <div class="left">
+                <h1>TOOLKIT</h1>
+                <button class="bbutton" onclick="window.location.href = 'https://sites.google.com/diu.edu.bd/beuman/beuman';">DOCUMENTS</button>
+                <button class="bbutton" onclick="window.location.href = 'https://github.com/FakhrulASA/PranaBandhu-BEUMAN';">GITHUB</button>
+       
+            </div>
+            <div class="right">
+                <h2>IT WAS MY ONE OF FIRST PROJECTS. THIS IS AN ANDROID APP WHICH WILL HELP CONVERTING DATA, BMI AND HEALTH NEWS, LOCAL AND INTERNATIONAL NEWS AND HOLIDAYS ETC. EVEN THIS APPLICATION 
+                    CONSIST WITH TOTALLY NEW AND SIMPLE SELF-MADE CALCULATOR. WHICH WAS NOT SOO GOOD BUT I WAS VERY HAPPY THEN WITH THE RESULT.
+                </h2>
+            </div>
+        </div>
+
+        <div class="personal"  id="toolkit">
+            <div class="left1">
+                <h1>PERSONAL PORTFOLIO WEBPAGE</h1>
+                <button class="bbutton" onclick="window.location.href = 'https://sites.google.com/diu.edu.bd/beuman/beuman';">DOCUMENTS</button>
+                <button class="bbutton" onclick="window.location.href = 'https://github.com/FakhrulASA/PranaBandhu-BEUMAN';">GITHUB</button>
+       
+            </div>
+            <div  class="right">
+                <h2>I DON'T THINK YOU NEED ANY DESCRIPTION AS CURRENTLY YOU ARE ON IT AND BROWISING IT. HOWEVER THIS SITE VERY MUCH REFLECT MY DESIGN CHOICE WHICH IS VERY SIMPLE BUT MODERN. HOPE YOU LIKED IT. IF YOU DON'T FEEL FREE 
+                    TO LET ME KNOW IN MY LINKEDIN, FACEBOOK.
+                </h2>
+            </div>
+        </div>
+
+        <div  class="projects">
+            <a name="jumpHereZ"></a>
+            <h1>SKILLS AND FEVORITES</h1>
+          </div>
         </mainbody>
+        <footer>
+            <div class="footer">
+                <h2>THANK YOU VERY MUCH FOR KNOWING ME</h2>
+                <h6>© 2020 Fakhrul Alam Siddiqei Antor</h6>
+            </div>
+        
+        </footer>
     </body>
 </html>
