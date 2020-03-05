@@ -7,10 +7,11 @@ body{
 .bodyXL{
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      transition: 0.5s;
-      
-      overflow: hidden;
+    transition: 0.3s;
+    overflow: hidden;
 }
+
+
 .mainbody{
 padding: 10px;
 text-align: center;
@@ -40,7 +41,7 @@ cursor:pointer;
   left: 0;
   background-color: rgb(12, 30, 49);
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   padding-top: 30px;
   text-align:center;
 }
@@ -59,6 +60,7 @@ cursor:pointer;
   font-size: 25px;
   border: 0;
   margin: 20px;
+  font-family: 'Ramabhadra', sans-serif;
   justify-content: center;
   color: white;
   background-color: rgb(12, 30, 49);
@@ -146,7 +148,6 @@ cursor:pointer;
     font-family: 'Franklin Gothic Medium';
     text-decoration: none;
     font-size: 25px; 
-
 }
 .mainbody h3{
     font-style: initial;
@@ -172,7 +173,7 @@ cursor:pointer;
   text-align: center;
   overflow: hidden;
   background-color: rgb(0, 81, 255); 
-  background: linear-gradient(to right, rgba(0, 75, 189, 0.938) , rgb(0, 122, 221));
+  background: linear-gradient(to right, rgba(13, 56, 197, 0.938) , rgb(0, 96, 206));
   position: relative;
 
 }
@@ -195,7 +196,7 @@ cursor:pointer;
     position: absolute;
     top: 60%;
     left: 50%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Kanit', sans-serif;
     transform: translate(-50%, -50%);
     font-style: inherit;
   color: rgb(255, 255, 255);
@@ -299,7 +300,7 @@ section #services li span {
 .right h2{
   color: azure;
   font-size: 20px;
-  font-family: 'Baloo Paaji', cursive;
+  font-family: 'Viga', sans-serif;
 }
 .bbutton{
   background-color: white;
@@ -363,7 +364,7 @@ section #services li span {
 }
 .form{
   display: inline-block;
-  background-color: rgb(41, 41, 41);
+  background-color: rgba(105, 34, 34, 0);
    padding: 10px;
    border-radius: 10px;
    justify-content: space-around;
@@ -385,7 +386,7 @@ section #services li span {
   padding: 5px;
 }
 .footer{
-  background-color: rgb(41, 41, 41);
+  background-color: rgba(17, 17, 17, 0.829);
   color: white;
   display: flex;
   justify-content: space-around;
@@ -393,6 +394,10 @@ section #services li span {
 .leftf{
   text-align: center;
   padding: 100px;
+}
+.leftf h2,h6{
+  font-family: 'Viga', sans-serif;
+  
 }
 
 .rightf{
@@ -435,7 +440,51 @@ section #services li span {
 .my-float{
 	margin-top:22px;
 }
+.skill{
 
+   
+  text-align: center;
+  
+}
+.title{
+  text-align: center;
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+}
+.title h2{
+  font-family: 'Kanit', sans-serif;
+}
+.cardview{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  padding: 55px;
+  background-color: rgba(236, 236, 236, 0.13);
+  box-shadow: 0.5px 0.5px 10px #dbdbdb;
+  margin: 20px;
+}
+.cardview:hover{
+  width: 95%;
+  padding: 60px;
+  background: linear-gradient(to right, rgb(245, 245, 245) , rgb(255, 255, 255));
+  box-shadow: 2.5px 2.5px 10px #dbdbdb;
+  transition: 0.4s;
+  margin: 20px;
+}
+.cardview h4{
+  font-family: 'Viga', sans-serif;
+
+}
+.cardview h5{
+  font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+.second{
+  padding-right: 40px;
+}
+.third{
+  padding-right: 280px;
+}
 @media only screen and (max-width: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -497,7 +546,7 @@ section #services li {
   width: 100px;
   height: 120px;
   display: inline-block;
-  margin: 0px 20px -30px -20px;
+  margin: 0px 1px -30px -20px;
   list-style: none;
 }
 
@@ -587,5 +636,41 @@ section #services li {
   border: 0px;
   margin-bottom: 20px;
   padding: 5px;
+}
+.cardview{
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(236, 236, 236, 0.13);
+  box-shadow: 0.5px 0.5px 10px #dbdbdb;
+  margin: 20px;
+}
+
+.cardview:hover{
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(236, 236, 236, 0.13);
+  box-shadow: 0.5px 0.5px 10px #dbdbdb;
+  margin: 20px;
+}
+.skill{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  
+}
+
+.second{
+padding: 5px;
+}
+.third{
+padding: 5px;
 }
 }

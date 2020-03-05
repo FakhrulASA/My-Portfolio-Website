@@ -23,3 +23,6 @@ function scrollTOP() {
   window.location = '#jumpHeret';
  
 }
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
