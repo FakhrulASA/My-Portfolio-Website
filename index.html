@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>You found me! Welcome.</title>
+  <title>FAKHRUL ALAM SIDDIQEI</title>
   <meta charset="UTF-8">
   <meta property="og:title" content="WELCOME TO MY WEBPAGE">
   <meta property="og:description" content="CHECK MY PERSONAL PORTFOLIO WEBPAGE FOR KNOW ABOUT ME.">
@@ -24,6 +24,8 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#191970">
+  <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="jquery-2.1.4.js"></script>
   <link href="css/index.css?ver=1.4" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,10 +46,10 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     type="text/css">
   <script src="jss/sidebar.js?ver=1.4"></script>
+  <link href="https://fonts.googleapis.com/css?family=Monda|Noto+Sans+SC|Overpass&display=swap" rel="stylesheet">
 </head>
 
-<body onselectstart="return false" id="mybody" class="bodyXL">
-
+<body onselectstart="return false" id="mybody" class="bodyXL" onload="loader()">
 
 
   <a name="jumpHeret"></a>
@@ -131,7 +133,7 @@
       <a name="jumpHere"></a>
       <h1>PROJECTS</h1>
     </div>
-    <div onselectstart="return false" class="beuman">
+    <div onselectstart="return false" class="beuman" data-aos="fade-down">
       <div class="left">
 
         <h1>Pranobandhu</h1>
@@ -152,7 +154,7 @@
         </h2>
       </div>
     </div>
-    <div class="cnn" id="project">
+    <div class="cnn" id="project" data-aos="fade-down">
       <div class="left">
         <h1>Rotten fruit classifier using CNN</h1>
         <button class="bbutton"
@@ -170,7 +172,7 @@
         </h2>
       </div>
     </div>
-    <div class="toolkit" id="toolkit">
+    <div class="toolkit" id="toolkit" data-aos="fade-down">
       <div class="left">
         <h1>TOOLKIT</h1>
         <button class="bbutton">DOWNLOAD APPLICATION</button>
@@ -186,7 +188,7 @@
       </div>
     </div>
 
-    <div class="personal" id="toolkit">
+    <div class="personal" id="toolkit" data-aos="fade-down">
       <div class="left1">
         <h1>PERSONAL PORTFOLIO WEBPAGE</h1>
         <button class="bbutton" onclick="scrollTOP()">VISIT SITE</button>
@@ -208,11 +210,11 @@
     </div>
     <div class="skill">
       <center>
-        <div class="cardview">
+        <div class="cardview"     data-aos="fade-left">
           <div class="image">
-            <img src="images/android.png" width="200" height="200">
+            <img src="images/android.png" width="550" height="550">
           </div>
-          <div>
+          <div class="dan">
             <div class="title">
               <h2>ANDROID DEVELOPMENT</h2>
             </div>
@@ -227,11 +229,8 @@
         </div>
       </center>
       <center>
-        <div class="cardview">
-          <div class="image">
-            <img src="images/www.png" width="200" height="200">
-          </div>
-          <div class="second">
+        <div class="cardview" data-aos="fade-right" >
+          <div class="dan">
             <div class="title">
               <h2>WEB DEVELOPMENT</h2>
             </div>
@@ -243,14 +242,18 @@
                 JAVASCRIPT, PHP, MYSQL </h5>
             </div>
           </div>
+          <div class="image">
+            <img src="images/www.png" width="550" height="550">
+          </div>
+      
         </div>
       </center>
       <center>
-        <div class="cardview">
+        <div class="cardview"  data-aos="fade-left">
           <div class="image">
-            <img src="images/machine.png" width="200" height="200">
+            <img src="images/machine.png" width="550" height="550">
           </div>
-          <div class="third">
+          <div class="dan">
             <div class="title">
               <h2>MACHIENE LEARNING</h2>
             </div>
@@ -310,8 +313,19 @@
     </div>
 
   </footer>
+<script>
+  
 
 
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:200,
+    duration:900,
+    once: true
+  });
+</script>
 </body>
 
 </html>
